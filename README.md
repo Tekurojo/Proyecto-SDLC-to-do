@@ -2,7 +2,7 @@
 Actividad en grupo
 
 
----------------------------------------------------------|MEDIDAS DE SEGURIDAD PARA LA EJECUACIÓN DE LA APP|-------------------------------------------------------
+---------------------------------------------------------|MEDIDAS DE SEGURIDAD PARA LA EJECUACIÓN DE LA APP|--------------------------------------------
 
 Ejecutar tu aplicación Docker sin ser usuario root y con los mínimos privilegios
 Para ejecutar tu aplicación Docker sin ser usuario root y con los mínimos privilegios, debes seguir estos pasos:
