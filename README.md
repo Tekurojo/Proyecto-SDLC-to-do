@@ -73,3 +73,25 @@ No exponer puertos innecesarios que podrían ser utilizados para ataques.
 Priorizar las vulnerabilidades críticas y toma las medidas necesarias para corregirlas.
 Esto puede implicar actualizar dependencias, modificar configuraciones o reemplazar componentes vulnerables.
 Snyk proporciona enlaces a recursos y guías para ayudar a resolver las vulnerabilidades.
+
+EJECUCIÓN DE LA APP:
+
+1-Clonar el repositorio getting-started:
+git clone https://github.com/docker/getting-started-app.git
+
+2-Creamos Dockerfile en el directorio de getting-started con el siguiente texto:
+# syntax=docker/dockerfile:1
+FROM node:18-alpine
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+EXPOSE 3000
+
+3-Construimos la imagen
+docker build -t getting-started .
+
+4-Iniciar la aplicación
+docker run -dp 127.0.0.1:3000:3000 getting-started
+
+
