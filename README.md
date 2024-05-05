@@ -74,7 +74,7 @@ Priorizar las vulnerabilidades críticas y toma las medidas necesarias para corr
 Esto puede implicar actualizar dependencias, modificar configuraciones o reemplazar componentes vulnerables.
 Snyk proporciona enlaces a recursos y guías para ayudar a resolver las vulnerabilidades.
 
-EJECUCIÓN DE LA APP:
+------------------------------------------|OBTENER LA APLICACIÓN|-----------------------------------------
 
 1-Clonar el repositorio getting-started:
 git clone https://github.com/docker/getting-started-app.git
