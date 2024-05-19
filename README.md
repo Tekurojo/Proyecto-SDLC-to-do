@@ -76,7 +76,7 @@ Después de ejecutar el script, verás una salida detallada con varias verificac
 
 1.2 General Host Configuration
 
-    [WARN] 1.2.1 - Ensure a separate partition for containers has been created (Automated)
+	 [WARN] 1.2.1 - Ensure a separate partition for containers has been created (Automated)
         Peligro: Repetido del punto 1.1.1.
 
 2. Docker Daemon Configuration
@@ -114,7 +114,7 @@ Después de ejecutar el script, verás una salida detallada con varias verificac
 6. Docker Security Operations
 
     [WARN] 6.1 - Ensure that image sprawl is avoided (Manual)
-        Peligro: Tener demasiadas imágenes puede dificultar la gestión y aumentar los riesgos de seguridad.
+	  Peligro: Tener demasiadas imágenes puede dificultar la gestión y aumentar los riesgos de seguridad.
 
     [WARN] 6.2 - Ensure that container sprawl is avoided (Manual)
         Peligro: Similar al anterior, demasiados contenedores pueden ser difíciles de gestionar y asegurar.
